@@ -1,0 +1,24 @@
+{
+  "name": "studysnap",
+  "version": "1.0.0",
+  "description": "StudySnap — AI study helper: summaries, key concepts, flashcards, quizzes and an AI tutor from your own study material.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test:e2e": "node tests/e2e.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "pdf-parse": "^2.4.3",
+    "zod": "^4.1.13"
+  }
+}
